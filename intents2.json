@@ -1,274 +1,562 @@
-{"type2": [
-    {"tag": "campus",
-            "patterns": ["How is the campus of IIT Mand"], 
-            "responses": ["The branch change policy at IIT Mandi is very lenient here at IIT Mandi. You can refer to this link to know the changed branch change policy https://www.iitmandi.ac.in/academics/files/Revised_branch_change_Guidelines_1_June_2015.pdf"],
-            "context": [""]
-
-    },
-    {"tag": "branch_change",
-            "patterns": ["What is the branch change requirement","What is the branch change criteria","What are the branch change conditions","What is the branch switch criteria","What does it take to change the branch","Is it easy to change the branch","When is the changed branch allocated","What is the branch change policy at IIT Mandi"],
-            "responses": ["The branch change policy at IIT Mandi is very lenient here at IIT Mandi. You can refer to this link to know the changed branch change policy https://www.iitmandi.ac.in/academics/files/Revised_branch_change_Guidelines_1_June_2015.pdf"],
-            "context": [""]
-
-    },
-    {"tag": "branch_change_pointer",
-            "patterns": ["What is the minimum cgpa required for branch change","What is the minimum CG required for branch change","Minimum pointer for branch change"],
-            "responses": ["To be eligible for Branch Change you need atleast 8.0 cgpa", "8.0 cgpa"],
-            "context": [""]
-
-    },
-    {"tag": "weather",
-            "patterns": ["How is the weather at IIT Mandi","How is the climate at mandi","Is it cold there"],
-            "responses": ["It quite pleasant here year around. If you are lucky, you might get to see some snowfall:)","The maximum temperature go upto 30 celcius, Winters can go subzero sometimes.", "Cold enough to give you himalayan vibes, and warm enough to not freeze your tea."],
-            "context": [""]
-
-    },
-    {"tag": "mess_food",
-            "patterns": ["how is mess food at iit mandi","how is food at iit mandi","quality of food at iit mandi","what type of food is served at iit mandi"],
-            "responses": ["Quality of food is quite good at IIT-Mandi.\nThere are both veg and non-veg counters is served."],
-            "context": [""]
-
-    },
-    {"tag": "entertainment_sources",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    },
-    {"tag": "hiking_trekking",
-            "patterns": ["is hiking and trekking allowed","is there a hiking and trekking club at iit mandi"],
-            "responses": ["Yes there is a hiking and trekking club at IIT Mandi.You will go out for various expeditions with experienced hikers once you are part of the club."],
-            "context": [""]
-
-    },
-    {"tag": "scholarships",
-            "patterns": ["does iit mandi provide scholarship","can we get a scholarship or free waiver at iit mandi"],
-            "responses": ["Yes there are some provisions for scholarships and fee waivers.You can read more about it here:\nhttps://www.iitmandi.ac.in/academics/scholarship.php"],
-            "context": [""]
-
-    }
-    ,
-    {"tag": "fee_structure",
-            "patterns": ["what is the fee structure at iit mandi","How much is the fees"],
-            "responses": ["Fee structure for 2021 is as follows.\nhttps://iitmandi.ac.in/academics/files/Fee%20Structure_B.Tech..pdf"],
-            "context": [""]
-
-    },
-    {"tag": "specialprovisions_girls",
-            "patterns": ["what is the fee for girl students at IIT Mandi","Is IIT Mandi safe for girls","Are there any special provisions for girls"],
-            "responses": ["IIT Mandi focuses on focuses on activities that enable a holistic development of women on campus.\n There is a 100% fee waiver for girl students.\n The campus of IIT Mandi is extremely empowering for female students."],
-            "context": [""]
-
-    },
-    {"tag": "essentials_clothes",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    },
-    
-    {"tag": "anti_ragging",
-            "patterns": ["prevalent ragging"],
-            "responses": ["https://meet.google.com/linkredirect?authuser=1&dest=https%3A%2F%2Fstudents.iitmandi.ac.in%2Fantiragging_swd.php"],
-            "context": [""]
-
-    },
-    {"tag": "hostel_rules",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    },
-    {"tag": "sports_facilities",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    },
-    {"tag": "grading_system",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    },
-    {"tag": "faculty",
-            "patterns": ["How is the faculty at IIT Mandi","Are the faculty members at IIT Mandi highly qualified",],
-            "responses": [""],
-            "context": [""]
-
-    },
-    {"tag": "hostel_facilities",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    },
-    {"tag": "dining_food_outlets",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    },
-    {"tag": "hangout_spots",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    }
-    ,
-    {"tag": "hotels",
-     "patterns": [""],
-     "responses": [""],
-     "context": [""]
-    }
-    ,
-    {"tag": "gender_ratio",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    },
-
-    {"tag": "fee_structure",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    },
-    {"tag": "snow",
-            "patterns": ["Does it snow there","Do we see snowfall","Is it cold there"],
-            "responses": ["Not often, some years you just get lucky though. Pro Tip- Kullu is just 66 kms away from Mandi. ","It did snow here in 2019."],
-            "context": [""]
-
-    },
-
-    {"tag": "vacations",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    },
-    {"tag": "semester_exchange",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    },
-    
-    {"tag": "attendance",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    },
-    {"tag": "aesthetics",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    },
-    {"tag": "internships",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    },
-    {"tag": "placements",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    },
-    {"tag": "clubs",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    },
-    {"tag": "club_meeting",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    },
-    {"tag": "transportation_connectivity",
-            "patterns": [""],
-            "responses": [""],
-            "context": [""]
-
-    },
-    {"tag": "Hostel_allocation",
-            "patterns": ["How can I get hostel at IIT Mandi","Are there enough hostels at IIT Mandi","Are the Hostels affordable"],
-            "responses": ["All IIT's have 100 % hostel allocation. The fees for hostels are nominal too.","The maximum temperature go upto 30 celcius, Winters can go subzero sometimes.", "Cold enough to give you himalayan vibes, and warm enough to not freeze your tea."],
-            "context": [""]
-
-    }
-     ,
-    {"tag": "student_gymkhana",
-     "patterns": [""],
-     "responses": [""],
-     "context": [""]
-    }
-     ,
-    {"tag": "role_of_mentors",
-     "patterns": [""],
-     "responses": [""],
-     "context": [""]
-    }
-     ,
-    {"tag": "internships_placements",
-             "patterns": ["how placement and internship status iit mandi"],
-             "responses": ["The internship and placement status at IIT Mandi is quite good.You can read about it in detail here:\nhttps://www.iitmandi.ac.in/academics/internship.php"],
-             "context": [""]
-    }        
-            
-    ,
-    {"tag": "gcs",
-     "patterns": [""],
-     "responses": [""],
-     "context": [""]
-    }
-    ,
-    {"tag": "student_counselling",
-     "patterns": [""],
-     "responses": [""],
-     "context": [""]
-    }
-    ,
-            {"tag": "college_club_updates",
-             "patterns": [""],
-             "responses": ["facebook,instagram,telegram,whatsapp groups"],
-             "context": [""]
-            }
-     ,
-    {"tag": "lingo_iitmandi",
-     "patterns": ["what is meant by faccha,facchi,matka,matki"],
-     "responses": [""],
-     "context": [""]
-    }
-     ,
-    {"tag": "college_fests",
-     "patterns": [""],
-     "responses": [""],
-     "context": [""]
-    }
-     ,
-    {"tag": "club_contact_info",
-     "patterns": [""],
-     "responses": [""],
-     "context": [""]
-    }
-     ,
-    {"tag": "senate_committee",
-     "patterns": [""],
-     "responses": [""],
-     "context": [""]
-    }
-    ,
-    {"tag": "student_role_college_administration",
-     "patterns": [""],
-     "responses": ["CCM,CR,AD courses"],
-     "context": [""]
-    }
+{
+    "type2": [
+        {
+            "tag": "campus",
+            "patterns": [
+                "How is the campus of IIT Mand"
+            ],
+            "responses": [
+                "The branch change policy at IIT Mandi is very lenient here at IIT Mandi. You can refer to this link to know the changed branch change policy https://www.iitmandi.ac.in/academics/files/Revised_branch_change_Guidelines_1_June_2015.pdf"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "branch_change",
+            "patterns": [
+                "What is the branch change requirement",
+                "What is the branch change criteria",
+                "What are the branch change conditions",
+                "What is the branch switch criteria",
+                "What does it take to change the branch",
+                "Is it easy to change the branch",
+                "When is the changed branch allocated",
+                "What is the branch change policy at IIT Mandi"
+            ],
+            "responses": [
+                "The branch change policy at IIT Mandi is very lenient here at IIT Mandi. You can refer to this link to know the changed branch change policy https://www.iitmandi.ac.in/academics/files/Revised_branch_change_Guidelines_1_June_2015.pdf"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "branch_change_pointer",
+            "patterns": [
+                "What is the minimum cgpa required for branch change",
+                "What is the minimum CG required for branch change",
+                "Minimum pointer for branch change"
+            ],
+            "responses": [
+                "To be eligible for Branch Change you need atleast 8.0 cgpa",
+                "8.0 cgpa"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "How is the weather at IIT Mandi",
+                "How is the climate at mandi",
+                "Is it cold there"
+            ],
+            "responses": [
+                "It quite pleasant here year around. If you are lucky, you might get to see some snowfall:)",
+                "The maximum temperature go upto 30 celcius, Winters can go subzero sometimes.",
+                "Cold enough to give you himalayan vibes, and warm enough to not freeze your tea."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "mess_food",
+            "patterns": [
+                "how is mess food at iit mandi",
+                "how is food at iit mandi",
+                "quality of food at iit mandi",
+                "what type of food is served at iit mandi"
+            ],
+            "responses": [
+                "Quality of food is quite good at IIT-Mandi.\nThere are both veg and non-veg counters is served."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "entertainment_sources",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hiking_trekking",
+            "patterns": [
+                "is hiking and trekking allowed",
+                "is there a hiking and trekking club at iit mandi"
+            ],
+            "responses": [
+                "Yes there is a hiking and trekking club at IIT Mandi.You will go out for various expeditions with experienced hikers once you are part of the club."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "scholarships",
+            "patterns": [
+                "does iit mandi provide scholarship",
+                "can we get a scholarship or free waiver at iit mandi"
+            ],
+            "responses": [
+                "Yes there are some provisions for scholarships and fee waivers.You can read more about it here:\nhttps://www.iitmandi.ac.in/academics/scholarship.php"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "fee_structure",
+            "patterns": [
+                "what is the fee structure at iit mandi",
+                "How much is the fees"
+            ],
+            "responses": [
+                "Fee structure for 2021 is as follows.\nhttps://iitmandi.ac.in/academics/files/Fee%20Structure_B.Tech..pdf"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "specialprovisions_girls",
+            "patterns": [
+                "what is the fee for girl students at IIT Mandi",
+                "Is IIT Mandi safe for girls",
+                "Are there any special provisions for girls"
+            ],
+            "responses": [
+                "IIT Mandi focuses on focuses on activities that enable a holistic development of women on campus.\n There is a 100% fee waiver for girl students.\n The campus of IIT Mandi is extremely empowering for female students."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "essentials_clothes",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "anti_ragging",
+            "patterns": [
+                "prevalent ragging"
+            ],
+            "responses": [
+                "https://meet.google.com/linkredirect?authuser=1&dest=https%3A%2F%2Fstudents.iitmandi.ac.in%2Fantiragging_swd.php"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hostel_rules",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sports_facilities",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "grading_system",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "faculty",
+            "patterns": [
+                "How is the faculty at IIT Mandi",
+                "Are the faculty members at IIT Mandi highly qualified"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hostel_facilities",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "dining_food_outlets",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hangout_spots",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hotels",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "gender_ratio",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "fee_structure",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "snow",
+            "patterns": [
+                "Does it snow there",
+                "Do we see snowfall",
+                "Is it cold there"
+            ],
+            "responses": [
+                "Not often, some years you just get lucky though. Pro Tip- Kullu is just 66 kms away from Mandi. ",
+                "It did snow here in 2019."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "vacations",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "semester_exchange",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "attendance",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "aesthetics",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "internships",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "placements",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "clubs",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "club_meeting",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "transportation_connectivity",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Hostel_allocation",
+            "patterns": [
+                "How can I get hostel at IIT Mandi",
+                "Are there enough hostels at IIT Mandi",
+                "Are the Hostels affordable"
+            ],
+            "responses": [
+                "All IIT's have 100 % hostel allocation. The fees for hostels are nominal too.",
+                "The maximum temperature go upto 30 celcius, Winters can go subzero sometimes.",
+                "Cold enough to give you himalayan vibes, and warm enough to not freeze your tea."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "student_gymkhana",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "role_of_mentors",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "internships_placements",
+            "patterns": [
+                "how placement and internship status iit mandi"
+            ],
+            "responses": [
+                "The internship and placement status at IIT Mandi is quite good.You can read about it in detail here:\nhttps://www.iitmandi.ac.in/academics/internship.php"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "gcs",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "student_counselling",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "college_club_updates",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "facebook,instagram,telegram,whatsapp groups"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "lingo_iitmandi",
+            "patterns": [
+                "what is meant by faccha,facchi,matka,matki"
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "college_fests",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "club_contact_info",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "senate_committee",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                ""
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "student_role_college_administration",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "CCM,CR,AD courses"
+            ],
+            "context": [
+                ""
+            ]
+        }
     ]
 }
