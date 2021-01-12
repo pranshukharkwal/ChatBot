@@ -1,0 +1,69 @@
+{"type1": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!\nPlease look up thes links to know more about IIT Mandi:\n https://wiki.iitmandi.co.in/p/Main_Page\nhttps://www.iitmandi.ac.in"],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+     "responses": ["I can guide you through your doubts about IIT Mandi."],
+     "context": [""]
+    },
+    {"tag": "creation",
+     "patterns": ["Who made you", "Who created you", "Who is your maker", "Who is your creator", "Who built you","Who constructed you"],
+     "responses": ["I was made by team Prometheus which is also my name.", "Team Prometheus from IIT Mandi","Best team i.e. Team Prometheus"],
+     "context": [""]
+    }
+    ,
+    {"tag": "medical_facilities",
+     "patterns": [""],
+     "responses": [""],
+     "context": [""]
+    }
+    ,
+    {"tag": "no_response",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you.Please rephrase the question."],
+     "context": [""]
+    }
+    ,
+    {"tag": "info_iitmandi",
+     "patterns": [""],
+     "responses": [""],
+     "context": [""]
+    }
+    ,
+    {"tag": "contact_information",
+     "patterns": [""],
+     "responses": ["https://iitmandi.ac.in/contact_directory_staff.php"],
+     "context": [""]
+    }
+    ,
+    {"tag": "alumni",
+     "patterns": [""],
+     "responses": ["https://alumniconnect.iitmandi.ac.in/"],
+     "context": [""]
+    },
+    {"tag": "placements",
+     "patterns": [""],
+     "responses": ["http://research.iitmandi.ac.in/main/placements/faculty-message.php"],
+     "context": [""]
+    }
+]
+
+}

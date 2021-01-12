@@ -1,0 +1,180 @@
+{"type3": 
+    [
+            {"tag": "programming_language",
+             "patterns": ["Which programming language should I start with","Which coding language should I start with", "What programming language should i use"],
+             "responses": ["Do you have any programming experience before?", "Good to see you again", "Hi there, how can I help?"],
+             "context": [""]
+            },
+            {"tag": "no_programming_experience",
+             "patterns": ["I don't have any programming experience", "I don't know programming", "I am new to programming"],
+             "responses": ["What is your current preferrence:\ncomptetive programming or website development"],
+             "context": [""]
+            },
+            {"tag": "has_programming_experience",
+                    "patterns": ["I have some programming experience", "I know some programming"],
+                    "responses": ["You can join KamandPrompt club and interact with members for detailed info.It organises various coding competitions as well as sessions on programming."],
+                    "context": [""]
+            },
+            {"tag": "Data_Science",
+             "patterns": ["Data Science", "DS","D S","D.S."],
+             "responses": ["Start with Python Programming:\nHelpful links:\nhttps://www.youtube.com/watch?v=husPzLE6sZc&list=PLJR1V_NHIKrCkswPMULzQFHpYa57ZFGbs&index=1"],
+             "context": [""]
+            },
+            {"tag": "Competitive_Programming",
+             "patterns": ["how to start Competitive Programming","CP","C P","C.P."],
+             "responses": ["Start with C++ Programming:\nHelpful links:\n https://pc.iitmandi.co.in/ccc/ \nhttps://www.youtube.com/watch?v=j8nAHeVKL08&list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL&index=1"],
+             "context": [""]
+            },
+            {"tag": "Web_development",
+             "patterns": ["how to start with website Web development", "website Web Dev", "website Web development"],
+             "responses": ["Start with learning basics of HTML,Javascript,CSS:\nHelpful links:\nhttps://www.w3schools.com/whatis/"],
+             "context": [""]
+            }
+            ,
+            {"tag": "machine_learning",
+             "patterns": ["what is machine learning and how do read about it","machine learning and its use","machine learning applications"],
+             "responses": ["Machine learning is an artificial learning technique where the computers have the capability to learn without being explicitly programmed for the thing at hand.You can read more about it here:\nhttps://www.geeksforgeeks.org/machine-learning/"],
+             "context": [""]
+            }
+            ,
+            {"tag": "operating_system",
+             "patterns": ["which operating system should be use","what operating system should i use","which OS is good for programming","which O.S. is best for programming","which operating system should i prefer for video and photo editing","which OS is best for graphic designing","which OS is best for playing games"],
+             "responses": ["The operating system varies with the purpose of use:\n1)Linux is good for programming and development inclined purpose\n2)Windows and macOS are good for editing and graphic designing purposes\n3)For gaming Windows is the best\nFor hybrid purposes you can dual boot or multiboot your laptop with multiple operating systems"],
+             "context": [""]
+            }
+            ,
+            {"tag": "dual_multi_boot",
+             "patterns": ["How to dual boot my laptop with linux","How to multi boot my laptop linux","How to dual-boot linux with windows","How to multi-boot","procedure for multi or dual boot"],
+             "responses": ["You can contact with your mentor or seniors for help.It is preferred to have either Windows or macOS on your system,not both.\nFor dual-booting with Linux you can read it here:\nhttps://opensource.com/article/18/5/dual-boot-linux\n"],
+             "context": [""]
+            }
+            ,
+            {"tag": "coding_softwares",
+             "patterns": ["what softwares applications should be installed for coding programming","applications programs for coding programming"],
+             "responses": ["There are plenty of softwares present for optimizing your programming pace.\nMost of these are operating system independent.\nDiscord is the official app for interaction and regular event updates\nVS code is used as an editor for coding\nZulip can be used for programming related doubts and discussions\nOf course you must also install the compilers for various coding languages which you need to learn.\nYou can search online for these softwares on their official sites"],
+             "context": [""]
+            }
+            ,
+            {"tag": "laptops_to_buy",
+             "patterns": ["which laptop computer should i buy","should i buy a laptop computer which one","what features should i look for in laptops computer"],
+             "responses": ["For buying a laptop,you can divide them in various categories based on their use like for coding/programming,photo and video editing and designing,gaming,general/hybrid purpose.For a non-specific purpose you can surely go for the features of coding ones.\nThe features depend on the type you want to buy:\n"],
+             "context": [""]
+            }
+            ,
+            {"tag": "laptop_for_programming",
+             "patterns": ["which laptop computer buy for programming coding software web development"],
+             "responses": ["For coding and development purpose,laptop must have >=8gb ram,>=256gb ssd,higher gen i5 or i7 processor(If planning for dual boot,go for more ssd variants).Secondary parameters include light-weight,decent battery backup(>=6hr).Optionally it is good to have a metallic build and a backlit keyboard one."],
+             "context": [""]
+            }
+            ,
+            {"tag": "laptop_for_gaming",
+             "patterns": ["which laptop computer buy for gaming games"],
+             "responses": ["For high-end gaming purposes,laptop must have >=16gb ram,>=512gb ssd,i7 processor,dedicated graphics card(>=2gb).Secondary parameters are mostly present when going for gaming laptops(cooling system and gaming keyboard).They are usually slightly heavy so can cause carrying troubles so buy light-weight ones"],
+             "context": [""]
+            }
+            ,
+            {"tag": "laptop_for_editing",
+             "patterns": ["which laptop computer buy for photo video editing graphics designing "],
+             "responses": ["For high end editing or graphics designing purposes,you can go for Apple MacBooks.With Windows,laptop must have >=16gb ram,>=512gb ssd,new gen i7 processor.You must go for one with very good battery life and a decent display quality.Optionally it is good to have a metallic build and a backlit keyboard one."],
+             "context": [""]
+            }        
+            ,
+            {"tag": "tips_for_efficient_coding",
+             "patterns": ["how to code program efficiently and elegantly"],
+             "responses": ["First of all have the recommended softwares installed for programming.For efficient programming you can start by practising touch-typing(typing without looking at keyboard) and get familiar with keyboard shortcuts on various softwares you are using.This saves a lot of time.\nFor the elegant logic,you must try to focus on basic algorithms and read and develop more of your own.Ofcourse practise is of utmost importance."],
+             "context": [""]
+            }
+            ,
+            {"tag": "coding_competitions",
+             "patterns": ["should i participate in online coding competitions","how do coding competitions help"],
+             "responses": ["Coding competitions are very useful to enhance coding skills.There are various levels on which you can partcipate.\nAs a beginner you should go out programming basic problems on URI Online Judge.Once comfortable with syntax,start focussing on algorithms and logic implementation techniques.Start solving practise problems on codeforces/hackerearth or other platforms.Then you start with competitions on these."],
+             "context": [""]
+            }
+            ,
+            {"tag": "hackathons",
+             "patterns": ["does iit mandi organise hackathons ctf ctfs capture the flag","will hacking  ctf ctfs capture the flag be taught","will hackathons ctf ctfs capture the flag"],
+             "responses": ["Yes there will be regular sessions regarding the same.Everything from cyber security to capture the flag(CTFs) will introduced"],
+             "context": [""]
+            }
+     ,
+            {"tag": "ctf_hack",
+             "patterns": ["what is done in hackathons ctf ctfs capture the flag","what is taught introduced in hackathons ctf ctfs capture the flag"],
+             "responses": ["Hackathons and CTFs include various forms of techniques from encyption-decryption,bypassing,code injection  as well as knowledge of operating system and the insides of computer architecture which are fairly advanced.You can inquire more about it from seniors or read it online."],
+             "context": [""]
+            }
+            ,
+            {"tag": "robot_making",
+             "patterns": ["will i we make a robot in iit mandi","will robot making be taught","arduino microcontrollers electronic gadgets"],
+             "responses": ["Robotronics club of IIT Mandi will guide you all the way from making simple microcontroller gadgets to building real world problem solving gadgets and robots.\nYou should attend all its sessions for the same to make such cool things."],
+             "context": [""]
+            }
+            ,
+            {"tag": "gsoc",
+             "patterns": ["what is gsoc","how many selections in gsoc","is iit mandi college good for gsoc"],
+             "responses": ["GSoC is Google Summer of Code , a path for open source development.There have been many selections for GSoC from our college.You can read more about it here:\nhttps://pc.iitmandi.co.in/gsoc/"],
+             "context": [""]
+            }
+     ,
+            {"tag": "open_source_development",
+             "patterns": ["what is open source development","how do i contribute for open source development","how to learn learning open source development","how to learn git github open source"],
+             "responses": ["Open source development refers to projects whose source code is publicly available.\nGithub is the platform for it which can be accessed and modified using Git.To learn more about git and open source development contact seniors or read online"],
+             "context": [""]
+            }
+            ,
+            {"tag": "institute_access_softwares",
+             "patterns": ["what softwares and facilities resources are made available by iit mandi online"],
+             "responses": ["IIT Mandi provides free access to Matlab through institute email.\nOther resources include books,publications,articles,magazines and research papers on numerous topics which can be accessed through the intranet or using institute proxy."],
+             "context": [""]
+            }
+            ,
+            {"tag": "institute_access_website",
+             "patterns": ["how do access online library resources intranet facilities iit mandi "],
+             "responses": ["To access it,you need to setup a proxy script in your device and login on the portal using your provided credentials."],
+             "context": [""]
+            }
+            ,
+            {"tag": "coding_culture",
+             "patterns": ["how is coding culture at iit mandi"],
+             "responses": ["IIT Mandi has a great coding culture,especially when talking about open source development and GSoC selections.\nKamandPrompt organises various programming sessions and seniors help all along the way.You can learn a lot from seniors and find someone working in some coding field or some of your interest.You can work together with them and learn as a team."],
+             "context": [""]
+            }
+            ,
+            {"tag": "programming_resources",
+             "patterns": ["how to obtain get coding programming resources"],
+             "responses": ["You can contact with KamandPrompt club members for guidance.There are a lot of resources online like books and various courses apart from what you will be learning as part of institute courses.Those can accessed via IIT Mandi library."],
+             "context": [""]
+            }
+            ,
+            {"tag": "coding_criteria_participation",
+             "patterns": ["how do i become part of pc kamandprompt programming club","how to join pc kamandprompt programming club","is there a criteria for joining pc kamandprompt programming club"],
+             "responses": ["KamandPrompt,the programming club of IIT Mandi is open for all students willing to learn coding and participate actively.\nYou can join it by contacting the coordinators or the club members.\nThere is no criteria for joining and no prerequisites"],
+             "context": [""]
+            }
+            ,
+            {"tag": "coding_importance",
+             "patterns": ["my branch is dse cs ee civil bioengineering is coding programming important","is programming or coding important to learn"],
+             "responses": ["Coding is a very integral part of all engineering trades.Coding is very important for implementation of logic and the application part of your engineering field."],
+             "context": [""]
+            }
+            ,
+            {"tag": "moodle",
+             "patterns": ["what is moodle","what is the online platform for acccessing courses","online resources for courses and assignments"],
+             "responses": ["IIT Mandi moodle is our online resource management platform.\nAll the assignments,lecture notes,ppts are uploaded there.\nCourse related notifications can be accessed through it.\nYou can log in with the credentials provided to you.\nhttps://students.iitmandi.ac.in/moodle/"],
+             "context": [""]
+            }
+            ,
+            {"tag": "oas",
+                    "patterns": ["what is oas","what is oas used for"],
+                    "responses": ["OAS(Office Automation System) is the online platform used for administration activities on student side.\nIt is used for fee payment and to register,opt out and managing the enrolled courses as well as for providing course feedback and so on.\nYou can login with your provided credentials here:\nhttp://oas.iitmandi.ac.in/student/"],
+                    "context": [""]
+                   }
+            ,
+            {"tag": "kamandprompt",
+             "patterns": ["what is kamandprompt","is there a programming club at iit mandi"],
+             "responses": ["KamandPrompt is the programming club of IIT Mandi.You can read more about it here:\nhttps://pc.iitmandi.co.in/"],
+             "context": [""]
+            }
+    
+       ]
+    }
+    
