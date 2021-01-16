@@ -1,12 +1,12 @@
 {"type3": 
        [
                {"tag": "programming_language",
-                "patterns": ["Which programming language should I start with","Which coding language should I start with", "What programming language should i use"],
+                "patterns": ["Which programming language should I start with","Which coding language should I start with", "What programming language should i use","programming language"],
                 "responses": ["Do you have any programming experience before?", "Good to see you again", "Hi there, how can I help?"],
                 "context": [""]
                },
                {"tag": "no_programming_experience",
-                "patterns": ["I don't have any programming experience", "I don't know programming", "I am new to programming"],
+                "patterns": ["I don't have any programming experience", "I don't know programming", "I am new to programming","how to start with programming"],
                 "responses": ["What is your current preferrence:\ncomptetive programming or website development"],
                 "context": [""]
                },
@@ -21,12 +21,12 @@
                 "context": [""]
                },
                {"tag": "Competitive_Programming",
-                "patterns": ["how to start Competitive Programming","CP","C P","C.P."],
+                "patterns": ["how to start Competitive Programming","CP","C P","C.P.","competetive programming","compe"],
                 "responses": ["Start with C++ Programming:\nHelpful links:\n https://pc.iitmandi.co.in/ccc/ \nhttps://www.youtube.com/watch?v=j8nAHeVKL08&list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL&index=1"],
                 "context": [""]
                },
                {"tag": "Web_development",
-                "patterns": ["how to start with website Web development", "website Web Dev", "website Web development"],
+                "patterns": ["how to start with website Web development", "website Web Dev", "website Web development","website development","web development"],
                 "responses": ["Start with learning basics of HTML,Javascript,CSS:\nHelpful links:\nhttps://www.w3schools.com/whatis/"],
                 "context": [""]
                }
@@ -128,49 +128,49 @@
                }
                ,
                {"tag": "institute_access_website",
-                "patterns": ["how do access online library resources intranet facilities iit mandi "],
+                "patterns": ["how do access online library resources intranet facilities iit mandi ","library resources"],
                 "responses": ["To access it,you need to setup a proxy script in your device and login on the portal using your provided credentials."],
                 "context": [""]
                }
                ,
                {"tag": "coding_culture",
-                "patterns": ["how is coding culture at iit mandi"],
+                "patterns": ["how is coding culture at iit mandi","coding culture at IIt mandi", "coding culture"],
                 "responses": ["IIT Mandi has a great coding culture,especially when talking about open source development and GSoC selections.\nKamandPrompt organises various programming sessions and seniors help all along the way.You can learn a lot from seniors and find someone working in some coding field or some of your interest.You can work together with them and learn as a team."],
                 "context": [""]
                }
                ,
                {"tag": "programming_resources",
-                "patterns": ["how to obtain get coding programming resources"],
+                "patterns": ["how to obtain get coding programming resources","programming resources"],
                 "responses": ["You can contact with KamandPrompt club members for guidance.There are a lot of resources online like books and various courses apart from what you will be learning as part of institute courses.Those can accessed via IIT Mandi library."],
                 "context": [""]
                }
                ,
                {"tag": "coding_criteria_participation",
-                "patterns": ["how do i become part of pc kamandprompt programming club","how to join pc kamandprompt programming club","is there a criteria for joining pc kamandprompt programming club"],
+                "patterns": ["how do i become part of pc kamandprompt programming club","how to join pc kamandprompt programming club","is there a criteria for joining pc kamandprompt programming club","how to join pc club"],
                 "responses": ["KamandPrompt,the programming club of IIT Mandi is open for all students willing to learn coding and participate actively.\nYou can join it by contacting the coordinators or the club members.\nThere is no criteria for joining and no prerequisites"],
                 "context": [""]
                }
                ,
                {"tag": "coding_importance",
-                "patterns": ["my branch is dse cs ee civil bioengineering is coding programming important","is programming or coding important to learn"],
+                "patterns": ["my branch is dse cs ee civil bioengineering is coding programming important","is programming or coding important to learn","coding importance","importance of coding"],
                 "responses": ["Coding is a very integral part of all engineering trades.Coding is very important for implementation of logic and the application part of your engineering field."],
                 "context": [""]
                }
                ,
                {"tag": "moodle",
-                "patterns": ["what is moodle","what is the online platform for acccessing courses","online resources for courses and assignments"],
+                "patterns": ["what is moodle","what is the online platform for acccessing courses","online resources for courses and assignments","moodle"],
                 "responses": ["IIT Mandi moodle is our online resource management platform.\nAll the assignments,lecture notes,ppts are uploaded there.\nCourse related notifications can be accessed through it.\nYou can log in with the credentials provided to you.\nhttps://students.iitmandi.ac.in/moodle/"],
                 "context": [""]
                }
                ,
                {"tag": "oas",
-                       "patterns": ["what is oas","what is oas used for"],
+                       "patterns": ["what is oas","what is oas used for","oas"],
                        "responses": ["OAS(Office Automation System) is the online platform used for administration activities on student side.\nIt is used for fee payment and to register,opt out and managing the enrolled courses as well as for providing course feedback and so on.\nYou can login with your provided credentials here:\nhttp://oas.iitmandi.ac.in/student/"],
                        "context": [""]
                       }
                ,
                {"tag": "kamandprompt",
-                "patterns": ["what is kamandprompt","is there a programming club at iit mandi"],
+                "patterns": ["what is kamandprompt","is there a programming club at iit mandi","kamand prompt","kamandprompt"],
                 "responses": ["KamandPrompt is the programming club of IIT Mandi.You can read more about it here:\nhttps://pc.iitmandi.co.in/"],
                 "context": [""]
                }
