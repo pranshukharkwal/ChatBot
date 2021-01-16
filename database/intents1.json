@@ -60,23 +60,29 @@
     },
     {"tag":"bored",
      "patterns": ["i'm bored","i am bored", "life is boring", "boring","boring life"],
-     "responses": ["I can give you some good movie, song or books suggestion. Type your field of interest (books, movies or song)"],
+     "responses": ["I can give you some good movie, song, joke or books suggestion. Type your field of interest (books, movies, joke or song)"],
      "context":[""]
     },
-    {"tag":"song",
+    {"tag":"suggest_song",
      "patterns":["suggest me a song","give me a song","song","recommend me a song"],
      "responses":[""],
      "context":[""]
     },
-    {"tag":"movie",
+    {"tag":"suggest_movie",
      "patterns":["suggest a movie","give a movie","movie","recommend a movie"],
      "responses":[""],
      "context":[""]
     },
-    {"tag":"book",
+    {"tag":"suggest_book",
      "patterns":["suggest a book","give a book", "recommend a book"],
      "responses":[""],
      "context":[""]
+    },
+    {"tag":"tell_joke",
+     "patterns":["tell me a joke","joke","good joke"],
+     "responses":[""],
+     "context":[""]
+        
     }
 ]
 
