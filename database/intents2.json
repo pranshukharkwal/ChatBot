@@ -1,0 +1,275 @@
+{"type2": [
+    {"tag": "campus",
+            "patterns": ["How is the campus of IIT Mandi","Is the campus of IIT Mandi beautiful","How good is the campus","Is campus of IIT Mandi beautiful","Is campus of IIT Mandi modern","Is campus of IIT Mandi equipped with all facilities"], 
+            "responses": ["Campus of IIT Mandi is very beautiful having scenic beauty as cherry on the cake,also it is a 2nd gen IIT so it is equipped with all the modern facilities.","IIT Mandi is the most beautiful IIT in the country, It has modern contruction that beautifully blends with the mountain ranges of Himalayas"],
+            "context": [""]
+
+    },
+    {"tag": "branch_change",
+            "patterns": ["What is the branch change requirement","What is the branch change criteria","What are the branch change conditions","What is the branch switch criteria","What does it take to change the branch","Is it easy to change the branch","When is the changed branch allocated","What is the branch change policy at IIT Mandi","How can I change my branch in IIT Mandi","Can I change my branch at IIT Mandi"],
+            "responses": ["The branch change policy at IIT Mandi is very lenient here at IIT Mandi. You can refer to this link to know the changed branch change policy https://www.iitmandi.ac.in/academics/files/Revised_branch_change_Guidelines_1_June_2015.pdf"],
+            "context": [""]
+
+    },
+    {"tag": "branch_change_pointer",
+            "patterns": ["How much should I score to change my branch","What is the minimum cgpa required for branch change","What is the minimum CG required for branch change","Minimum pointer for branch change"],
+            "responses": ["To be eligible for Branch Change you need atleast 8.0 cgpa", "Minimum 8.0 cgpa"],
+            "context": [""]
+
+    },
+    {"tag": "weather",
+            "patterns": ["How is the weather at IIT Mandi","How is the climate at mandi","Is it very cold there"],
+            "responses": ["It quite pleasant here year around. If you are lucky, you might get to see some snowfall:)\n you will saved from scorching heat as in northern plain the maximum temperature go upto 30 celsius, in winters temperature can go subzero sometimes.", "Cold enough to give you himalayan vibes, and warm enough to not freeze your tea."],
+            "context": [""]
+
+    },
+    {"tag": "mess_food",
+            "patterns": ["how is mess food at iit mandi","how is food at iit mandi","quality of mess food at iit mandi","what type of mess food is served at iit mandi"],
+            "responses": ["Quality of food is quite good at IIT-Mandi.\nThere are both veg and non-veg counters is served."],
+            "context": [""]
+
+    },
+    {"tag": "entertainment_sources",
+            "patterns": ["Are There any movie theatres around IIT Mandi","What else can a student explore Malls theatres cinemas leisure spots "],
+            "responses": ["There are many places to visit in Mandi Town,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"],
+            "context": [""]
+
+    },
+    {"tag": "hiking_trekking",
+            "patterns": ["is hiking and trekking allowed","is there a hiking and trekking club at iit mandi","is there a hnt club at iit mandi","Can i go for hiking and trekking","Can i go for hiking and trekking on mountains","Can i go for hiking trekking mountaineering"],
+            "responses": ["Yes there is a hiking and trekking club at IIT Mandi.You will go out for various expeditions with experienced hikers once you are part of the club."],
+            "context": [""]
+
+    },
+    {"tag": "scholarships",
+            "patterns": ["does iit mandi provide scholarship","can we get a scholarship or fee waiver at iit mandi","what are the provisions for scholarships or fee waivers","can i get any stipend at iit mandi"],
+            "responses": ["You will be glad to know that there are some provisions for scholarships and fee waivers.You can read more about it here:\nhttps://www.iitmandi.ac.in/academics/scholarship.php"],
+            "context": [""]
+
+    }
+    ,
+    {"tag": "specialprovisions_girls",
+            "patterns": ["what is the fee for girl students at IIT Mandi","Is IIT Mandi safe for girls","Are there any special provisions for girls"],
+            "responses": ["IIT Mandi focuses on focuses on activities that enable a holistic development of women on campus.\n There is a 100% fee waiver for girl students.\n The campus of IIT Mandi is extremely empowering for female students \n Also female students get stipend from the institution itself"],
+            "context": [""]
+
+    },
+    {"tag": "essentials_clothes",
+            "patterns": ["what clothes are needed", "which clothes are necessary for the college clg","Do I need to bring winter clothes","What types of clothes are essential","what should be my attire at iit mandi","What is the preferred attire"],
+            "responses": ["Mandi is a cold place, so its advisable that you carry warm woollen clothes with you.","Mandi is located in heart of nature so weather is pleasant here throughout the year so it is advisable to bring clothes accordingly"],
+            "context": [""]
+
+    }
+    ,
+    {"tag": "essentials_to_bring",
+     "patterns": ["What things should i bring to iit mandi","What essentials should i bring to iit mandi","What things should i buy before coming to college iit mandi"],
+     "responses": ["After the college opens, all the essentials are available with in the campus at minimal rates,,,,,,,,,,,,,,,,,,"],
+     "context": [""]
+    }
+    ,
+    {"tag": "anti_ragging",
+            "patterns": ["is ragging prevalent at iit mandi","is there ragging at iit mandi","do seniors take ragging at iit mandi","what to do if i feel harrassed abused tortured"],
+            "responses": ["IIT Mandi has a very strict anti-ragging policy. So you don't need to worry about it.\nYou will be glad to know that there has never been any case of ragging at IIT Mandi.\nTo learn more visit this link:\nhttps://students.iitmandi.ac.in/antiragging_swd.php"],
+            "context": [""]
+
+    },
+    {"tag": "hostel_rules",
+            "patterns": ["What are the hostel rules policy here","What are the check in and checkout times of the hostels","hostel restrictions regulations policy rules for students"],
+            "responses": [",,,,,,,,,,"],
+            "context": [""]
+
+    },
+    {"tag": "sports_facilities",
+            "patterns": ["How are the sports facilities at IIT Mandi","Are there provisions for sports at IIT Mandi","are there any sports athletic activities at iit mandi","Is there football basketball badminton cricket chess table tennis tt swimming"],
+            "responses": ["There are almost all the sports facilities available at IIT Mandi, from Football to TT and everything in between"],
+            "context": [""]
+
+    },
+    {"tag": "grading_system",
+            "patterns": ["What is the grading system at IIT Mandi","How are the students graded at IIT Mandi","how are the grades provided allotted at iit mandi"],
+            "responses": ["IIT Mandi uses relative grading system.Grades are from 10 cgpa(O grade) and then A,B,C and so on.You can read more about grading system here:\nhttp://iitmandi.ac.in/academics/evaluation.php"],
+            "context": [""]
+
+    },
+    {"tag": "faculty",
+            "patterns": ["How is the faculty at IIT Mandi","Are the faculty members at IIT Mandi highly qualified","qualifications professors teachers faculty","professors teachers faculty good supportive"],
+            "responses": ["The faculty members at IIT Mandi are highly qualified.IIT Mandi houses world class faculty.\nThe faculty is frequently involved in leading researches."],
+            "context": [""]
+
+    },
+    {"tag": "hostel_facilities",
+            "patterns": ["How are the hostels at IIT Mandi","What are the hostel facilities there","how good clean modern are the hostels at iit mandi"],
+            "responses": ["Hostels at IIT Mandi are no less than a fine resort, having facilities for leisure and good study environment\n Every hostel has a study room on each floor, with a projector and heater.\n There are ovens and washing machines in each hostel too.\n With common rooms to hangout."],
+            "context": [""]
+
+    },
+    {"tag": "infrastructure",
+            "patterns": ["how good is the infrastructure at iit mandi","are all labs at iit mandi ready fully constructed","iit mandi equipped infrastructure labs"],
+            "responses": ["IIT Mandi is equipped with world class lab facilities.There are labs of all departments.You can learn more about it here:\nhttps://www.iitmandi.ac.in/Schools/SE/labs.php"],
+            "context": [""]
+
+    },
+    {"tag": "dining_food_outlets",
+            "patterns": ["Where can one go to have a snack fast food"],
+            "responses": ["There are 6 canteens in IIT Mandi campus offering many snacks that you could enjoy."],
+            "context": [""]
+
+    },
+    {"tag": "hangout_spots",
+            "patterns": ["What are the hangout spots in the campus","Where can I hangout with my friends","chill out places leisure spots"],
+            "responses": [",,,,,,,,,"],
+            "context": [""]
+    }
+    ,
+    {"tag": "hotels",
+     "patterns": ["Are there any hotels resorts near mandi"],
+     "responses": ["There are various hotels in the Mandi town which is close to the main Campus, offering variety of Himalayan, Indian and continental foods.You can get more info here:\nhttps://students.iitmandi.ac.in/mandi_hotel_info.php"],
+     "context": [""]
+    }
+    ,
+    {"tag": "gender_ratio",
+            "patterns": ["What is the sex gender ratio of IIT Mandi","how many girls are there at IIT Mandi"," female male ratio gender sex ratio"],
+            "responses": ["The Gender Ratio of IIT Mandi is more than 20% which is the highest for any IIT. \n IIT Mandi strongly believes in women empowerment."],
+            "context": [""]
+
+    },
+
+    {"tag": "fee_structure",
+            "patterns": ["what is the fee structure at iit mandi","How much is the fees of iit mandi","How much is the fees of IIT Mandi","Is studying at IIT Mandi costly","How much is the fees per semester sem of iit mandi"],
+            "responses": ["Fee structure for 2021 is as follows.\nhttps://iitmandi.ac.in/academics/files/Fee%20Structure_B.Tech..pdf"],
+            "context": [""]
+
+    }
+    ,
+    {"tag": "snow",
+            "patterns": ["Does it snow there","Do we see snowfall"],
+            "responses": ["Not often,but some years you just get lucky though to see snowfall. Pro Tip- Kullu is just 66 kms away from Mandi. ","It did snow here in 2019."],
+            "context": [""]
+
+    },
+
+    {"tag": "vacations",
+            "patterns": ["When are the vacations holidays at IIT Mandi","sem semester breaks vacations iit mandi"],
+            "responses": ["Yes there are 2 months of winter and 1 month of summer vacations.Also there are semester breaks.",",,,,,,,"],
+            "context": [""]
+
+    },
+    {"tag": "semester_exchange",
+            "patterns": ["Does IIT Mandi offer a semester exchange program","What universities does IIT Mandi have student exchange programs with","Does IIT Mandi have ties with foriegn universities for sem exchange."],
+            "responses": ["IIT Mandi offers semester exchange programs during the 5th and 6th sem, It also has ties with many European universities.\n Also IIT Mandi is working on tie up with American universities. You can refer to this link to learn more - http://www.iitmandi.ac.in/admissions/int_admissions/index.php"],
+            "context": [""]
+
+    },
+    
+    {"tag": "attendance",
+            "patterns": ["What is the attendance policy","How much is the minimum attendance at IIT Mandi","Do I need to be present in all the lectures here","How much attendance is mandatory"],
+            "responses": ["IIT Mandi expects the faculty to keep a 70% minimum attendance policy but it is upto the discretion of the individual faculty","It is advisable for you too attend all the lectures but 70% attendance is mandatory to write the exams for most courses."],
+            "context": [""]
+
+    },
+         
+    {"tag": "internships",
+            "patterns": ["How are the internships at IIT Mandi","Do we have to do internship?","Do we have to intern for a company","When will we get an internship"],
+            "responses": ["Internship is compulsory(as it has credits associated) of every undergrad of IIT Mandi.\nThere are plenty of excellent internship opportunities that IIT Mandi will help you grab.\n The internships are mostly done during the 3rd year."],
+            "context": [""]
+
+    },
+    {"tag": "placements",
+            "patterns": ["How are the placements at IIT Mandi","What is the placement scenario at IIT mandi","Job opportunities placements at IIT Mandi"],
+            "responses": ["IIT Mandi has an excellent placement record, having hosted many giants such as Microsoft, Adobe, Amazon, Codenation etc.\n From core to non core all types of companies come to recruit undergrads of IIT Mandi."],
+            "context": [""]
+
+    },
+    {"tag": "clubs",
+            "patterns": ["What clubs are there at IIT Mandi","How is the club culture at IIT Mandi","Can we join the club that we like","any club, pre-requisites requirements for joining the clubs"],
+            "responses": ["The club culture at IIT Mandi is extremely supportive and full of learning. \n There are many clubs here such as programming club, Hiking and Trekking club, Photography and movie making club etc\n To know more about the clubs visit: https://wiki.iitmandi.co.in/p/List_of_Societies_and_Clubs "],
+            "context": [""]
+
+    },
+    {"tag": "club_meeting",
+            "patterns": ["Will I be able to join the different club meetings in the online mode too","How do clubs conduct their meetings","How are the clubs organizing organising the workshops in the online mode"],
+            "responses": ["The main mode of the meetings of clubs is offline but due to the pandemic, the club meetings are held online.\n As all the clubs are open for all you can join the meetings/workshops through the respective groups."],
+            "context": [""]
+
+    },
+    {"tag": "transportation_connectivity",
+            "patterns": ["How to reach IIT Mandi","how to get to the mandi town","how to go from mandi town to iit mandi campus","what are the nearest airports and railway stations","Do we have to take an auto or a bus to travel from kamand to mandi","How much time does it take to visit mandi town from the campus"],
+            "responses": ["All the information about transportation could be found here:\n https://www.iitmandi.ac.in/Visitor_info/index.html"],
+            "context": [""]
+
+    },
+    {"tag": "Hostel_allocation",
+            "patterns": ["How can I get hostel at IIT Mandi","Are there enough hostels at IIT Mandi","Are the Hostels affordable"],
+            "responses": ["All IIT's have 100 % hostel allocation. The fees for the hostels is very nominal too."],
+            "context": [""]
+
+    }
+     ,
+    {"tag": "student_gymkhana",
+     "patterns": ["What is student gymkhana","What are the roles of secretaries","what does technical secretary role of do","what does academic secretary role of do","what does cultural hostel sports research litreary genenral secretary role of do"],
+     "responses": ["To know more about Student gymkhana and Secretaries please visit:\n https://gymkhana.iitmandi.co.in/"],
+     "context": [""]
+    }
+     ,
+    {"tag": "role_of_mentors",
+     "patterns": ["What is the role of the mentors","What are mentors supposed to do","What is a mentor and a mentee"],
+     "responses": [",,,,,,,,"],
+     "context": [""]
+    }
+     ,
+    {"tag": "internships_placements",
+             "patterns": ["how placement and internship status iit mandi"],
+             "responses": ["The internship and placement status at IIT Mandi is quite good.You can read about it in detail here:\nhttps://www.iitmandi.ac.in/academics/internship.php"],
+             "context": [""]
+    }        
+            
+    ,
+    {"tag": "gcs",
+     "patterns": ["What is GCS","What is Guidance and councelling service"],
+     "responses": ["Guidance and Councelling Service (GCS) is an operational body of IIT Mandi which coordinates the well being and better interaction of freshers with the institute.\n To know more about GCS please visit:\n http://www.iitmandi.ac.in/gcs/"],
+     "context": [""]
+    }
+    ,
+    {"tag": "student_counselling",
+     "patterns": ["Can I talk to someone if I am depressed","Can I talk to someone if I am feeling sad lonely sulky"],
+     "responses": ["Please contact GCS urgently:\n http://www.iitmandi.ac.in/gcs/"],
+     "context": [""]
+    }
+    ,
+    {"tag": "college_club_updates",
+             "patterns": ["Where to i get the club activities updates notifications news events"],
+             "responses": ["You can stay updated with the club activities through facebook,instagram,telegram,whatsapp groups"],
+             "context": [""]
+            }        
+     ,
+    {"tag": "lingo_iitmandi",
+     "patterns": ["what is meant by faccha facchi matka matki","What is the lingo of IIT Mandi","What are the common slangs of IIT Mandi"],
+     "responses": ["You can find the lingo of IIT Mandi here:\n https://wiki.iitmandi.co.in/p/Lingo_of_IIT_Mandi"],
+     "context": [""]
+    }
+     ,
+    {"tag": "college_fests",
+     "patterns": ["Does IIT Mandi Conduct Festivals fests events","What are the festivals at IIT Mandi","Do celebrities come to the festivals fests events of IIT Mandi"],
+     "responses": ["The Fests of IIT Mandi are spectacular. The Fest are amongst the largest in the Himalayas. Many celebs visit IIT Mandi during the fests. Exodia is the largest technical festival of IIT Mandi. You can know more about particualar fests here: https://en.wikipedia.org/wiki/IIT_Mandi#Cultural_festivals"],
+     "context": [""]
+    }
+     ,
+    {"tag": "senate_committee",
+     "patterns": ["What is the role of the senate committee"],
+     "responses": [""],
+     "context": [""]
+    }
+    ,
+    {"tag": "seminars_talks",
+     "patterns": ["Do prominent personalities conduct talks and seminars at IIT Mandi"],
+     "responses": [""],
+     "context": [""]
+    }
+    ,
+    {"tag": "student_role_college_administration",
+     "patterns": ["What role does a student play in the college administraition","How can a student affect the administration"],
+     "responses": ["AT IIT Mandi a student becomes able to voice his concerns to the administration effectively\n Class representatives are elected and they represent the students in the Class committee meetings.\n Please refer to the following link :\n https://drive.google.com/file/d/1uNqr6gyiLUnFWkktyFw_mvQxsUDlQJ4m/view\n"],
+     "context": [""]
+    }
+    ]
+}
