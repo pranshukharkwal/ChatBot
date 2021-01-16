@@ -57,6 +57,26 @@
      "patterns": ["packages","placements","placement record","placement at IIT Mandi"],
      "responses": ["http://research.iitmandi.ac.in/main/placements/faculty-message.php"],
      "context": [""]
+    },
+    {"tag":"bored",
+     "patterns": ["i'm bored","i am bored", "life is boring", "boring","boring life"],
+     "responses": ["I can give you some good movie, song or books suggestion. Type your field of interest (books, movies or song)"],
+     "context":[""]
+    },
+    {"tag":"song",
+     "patterns":["suggest me a song","give me a song","song","recommend me a song"],
+     "responses":[""],
+     "context":[""]
+    },
+    {"tag":"movie",
+     "patterns":["suggest a movie","give a movie","movie","recommend a movie"],
+     "responses":[""],
+     "context":[""]
+    },
+    {"tag":"book",
+     "patterns":["suggest a book","give a book", "recommend a book"],
+     "responses":[""],
+     "context":[""]
     }
 ]
 
