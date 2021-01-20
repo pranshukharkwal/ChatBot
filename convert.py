@@ -2,7 +2,9 @@
 import pandas as pd
 import json
 import random
-
+from nltk.tag import pos_tag
+nltk.download('averaged_perceptron_tagger')
+import wikipedia
 # %%
 
 
@@ -129,6 +131,11 @@ def give_suggestion(t1, t2=''):
 
     return songData
 
+def fetch_wikipedia(sentence):
+    tagged_sent = pos_tag(sentence.split())
+    pn = [word for word,pos in tagged_sent if pos == 'NNP']
+    final = " ".join(pn)
+    return wikipedia.summary(final)
 
 #%%
 # some test cases!!
