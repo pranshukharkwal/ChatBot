@@ -7,7 +7,7 @@
                },
                {"tag": "no_programming_experience",
                 "patterns": ["I don't have any programming experience", "I don't know programming", "I am new to programming","how to start with programming"],
-                "responses": ["What is your current preferrence:\ncomptetive programming or website development"],
+                "responses": ["What is your current preference:\ncomptetive programming or website development"],
                 "context": [""]
                },
                {"tag": "has_programming_experience",
@@ -21,7 +21,7 @@
                 "context": [""]
                },
                {"tag": "Competitive_Programming",
-                "patterns": ["how to start Competitive Programming","CP","C P","C.P.","competetive programming","compe"],
+                "patterns": ["how to start Competitive Programming","CP","C P","C.P.","competitive programming","compe"],
                 "responses": ["Start with C++ Programming:\nHelpful links:\n https://pc.iitmandi.co.in/ccc/ \nhttps://www.youtube.com/watch?v=j8nAHeVKL08&list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL&index=1"],
                 "context": [""]
                },
@@ -134,8 +134,8 @@
                }
                ,
                {"tag": "coding_culture",
-                "patterns": ["how is coding culture at iit mandi","coding culture at IIt mandi", "coding culture"],
-                "responses": ["IIT Mandi has a great coding culture,especially when talking about open source development and GSoC selections.\nKamandPrompt organises various programming sessions and seniors help all along the way.You can learn a lot from seniors and find someone working in some coding field or some of your interest.You can work together with them and learn as a team."],
+                "patterns": ["how is coding culture at iit mandi","coding culture at IIT mandi", "coding culture"],
+               "responses": ["IIT Mandi has a great coding culture,especially when talking about open source development and GSoC selections.\nKamandPrompt organises various programming sessions and seniors help all along the way.You can learn a lot from seniors and find someone working in some coding field or some of your interest.You can work together with them and learn as a team."],
                 "context": [""]
                }
                ,
@@ -158,7 +158,7 @@
                }
                ,
                {"tag": "moodle",
-                "patterns": ["what is moodle","what is the online platform for acccessing courses","online resources for courses and assignments","moodle"],
+                "patterns": ["what is moodle","what is the online platform for accessing courses","online resources for courses and assignments","moodle"],
                 "responses": ["IIT Mandi moodle is our online resource management platform.\nAll the assignments,lecture notes,ppts are uploaded there.\nCourse related notifications can be accessed through it.\nYou can log in with the credentials provided to you.\nhttps://students.iitmandi.ac.in/moodle/"],
                 "context": [""]
                }

@@ -1,7 +1,7 @@
 {"type2": [
         {"tag": "campus",
                 "patterns": ["How is the campus of IIT Mandi","Is the campus of IIT Mandi beautiful","How good is the campus","Is campus of IIT Mandi beautiful","Is campus of IIT Mandi modern","Is campus of IIT Mandi equipped with all facilities"], 
-                "responses": ["Campus of IIT Mandi is very beautiful having scenic beauty as cherry on the cake,also it is a 2nd gen IIT so it is equipped with all the modern facilities.","IIT Mandi is the most beautiful IIT in the country, It has modern contruction that beautifully blends with the mountain ranges of Himalayas"],
+                "responses": ["Campus of IIT Mandi is very beautiful having scenic beauty as cherry on the cake,also it is a 2nd gen IIT so it is equipped with all the modern facilities.","IIT Mandi is the most beautiful IIT in the country, It has modern construction that beautifully blends with the mountain ranges of Himalayas"],
                 "context": [""]
     
         },
@@ -13,7 +13,7 @@
         },
         {"tag": "branch_change_pointer",
                 "patterns": ["How much should I score to change my branch","What is the minimum cgpa required for branch change","What is the minimum CG required for branch change","Minimum pointer for branch change"],
-                "responses": ["To be eligible for Branch Change you need atleast 8.0 cgpa", "Minimum 8.0 cgpa"],
+                "responses": ["To be eligible for Branch Change you need at least 8.0 cgpa", "Minimum 8.0 cgpa"],
                 "context": [""]
     
         },
@@ -24,7 +24,7 @@
         },
         {"tag": "weather",
                 "patterns": ["How is the weather at IIT Mandi","How is the climate at mandi","Is it very cold there"],
-                "responses": ["It quite pleasant here year around. If you are lucky, you might get to see some snowfall:)\n you will saved from scorching heat as in northern plain the maximum temperature go upto 30 celsius, in winters temperature can go subzero sometimes.", "Cold enough to give you himalayan vibes, and warm enough to not freeze your tea."],
+                "responses": ["It is quite pleasant here year around. If you are lucky, you might get to see some snowfall:)\n you will saved from scorching heat as in northern plain the maximum temperature go upto 30 celsius, in winters temperature can go subzero sometimes.", "Cold enough to give you himalayan vibes, and warm enough to not freeze your tea."],
                 "context": [""]
     
         },
@@ -36,7 +36,7 @@
         },
         {"tag": "entertainment_sources",
                 "patterns": ["Are There any movie theatres around IIT Mandi","What else can a student explore Malls theatres cinemas leisure spots "],
-                "responses": ["There are many places to visit in Mandi Town, nearest theatre is in a town neraby named sundernagar"],
+                "responses": ["There are many places to visit in Mandi Town, nearest theatre is in a town nearby named sundernagar"],
                 "context": [""]
     
         },
@@ -73,7 +73,7 @@
         }
         ,
         {"tag": "anti_ragging",
-                "patterns": ["is ragging prevalent at iit mandi","is there ragging at iit mandi","do seniors take ragging at iit mandi","what to do if i feel harrassed abused tortured"],
+                "patterns": ["is ragging prevalent at iit mandi","is there ragging at iit mandi","do seniors take ragging at iit mandi","what to do if i feel harassed abused tortured"],
                 "responses": ["IIT Mandi has a very strict anti-ragging policy. So you don't need to worry about it.\nYou will be glad to know that there has never been any case of ragging at IIT Mandi.\nTo learn more visit this link:\nhttps://students.iitmandi.ac.in/antiragging_swd.php"],
                 "context": [""]
     
@@ -121,8 +121,8 @@
     
         },
         {"tag": "hangout_spots",
-                "patterns": ["What are the hangout spots in the campus","Where can I hangout with my friends","chill out places leisure spots"],
-                "responses": ["griffon top, people's point, riveside and many more picturesque views"],
+                "patterns": ["What are the hangout spots in the campus","Where can I hangout with my friends","chill out places leisure spots","what places to visit in near iit mandi"],
+                "responses": ["griffon top, people's point, riversideand many more picturesque views"],
                 "context": [""]
         }
         ,
@@ -186,7 +186,7 @@
     
         },
         {"tag": "clubs",
-                "patterns": ["What clubs are there at IIT Mandi","How is the club culture at IIT Mandi","Can we join the club that we like","any club, pre-requisites requirements for joining the clubs"],
+                "patterns": ["What clubs are there at IIT Mandi","How is the club culture at IIT Mandi","Can we join the club that we like","any club, prerequisites requirements for joining the clubs"],
                 "responses": ["The club culture at IIT Mandi is extremely supportive and full of learning. \n There are many clubs here such as programming club, Hiking and Trekking club, Photography and movie making club etc\n To know more about the clubs visit: https://wiki.iitmandi.co.in/p/List_of_Societies_and_Clubs "],
                 "context": [""]
     
@@ -205,20 +205,20 @@
         },
         {"tag": "Hostel_allocation",
                 "patterns": ["How can I get hostel at IIT Mandi","Are there enough hostels at IIT Mandi","Are the Hostels affordable"],
-                "responses": ["All IIT's have 100 % hostel allocation. The fees for the hostels is very nominal too."],
+                "responses": ["All IIT have 100 % hostel allocation. The fees for the hostels is very nominal too."],
                 "context": [""]
     
         }
          ,
         {"tag": "student_gymkhana",
-         "patterns": ["What is student gymkhana","What are the roles of secretaries","what does technical secretary role of do","what does academic secretary role of do","what does cultural hostel sports research litreary genenral secretary role of do"],
+         "patterns": ["What is student gymkhana","What are the roles of secretaries","what does technical secretary role of do","what does academic secretary role of do","what does cultural hostel sports research literary general secretary role of do"],
          "responses": ["To know more about Student gymkhana and Secretaries please visit:\n https://gymkhana.iitmandi.co.in/"],
          "context": [""]
         }
          ,
         {"tag": "role_of_mentors",
          "patterns": ["What is the role of the mentors","What are mentors supposed to do","What is a mentor and a mentee"],
-         "responses": ["To guide the new comers so that they can become well versed with the campus and all it's rules"],
+         "responses": ["To guide the new comers so that they can become well versed with the campus and all IT rules"],
          "context": [""]
         }
          ,
@@ -230,7 +230,7 @@
                 
         ,
         {"tag": "gcs",
-         "patterns": ["What is GCS","What is Guidance and councelling service"],
+         "patterns": ["What is GCS","What is Guidance and counselling service"],
          "responses": ["Guidance and Councelling Service (GCS) is an operational body of IIT Mandi which coordinates the well being and better interaction of freshers with the institute.\n To know more about GCS please visit:\n http://www.iitmandi.ac.in/gcs/"],
          "context": [""]
         }
@@ -255,24 +255,24 @@
          ,
         {"tag": "college_fests",
          "patterns": ["Does IIT Mandi Conduct Festivals fests events","What are the festivals at IIT Mandi","Do celebrities come to the festivals fests events of IIT Mandi"],
-         "responses": ["The Fests of IIT Mandi are spectacular. The Fest are amongst the largest in the Himalayas. Many celebs visit IIT Mandi during the fests. Exodia is the largest technical festival of IIT Mandi. You can know more about particualar fests here: https://en.wikipedia.org/wiki/IIT_Mandi#Cultural_festivals"],
+         "responses": ["The Fests of IIT Mandi are spectacular. The Fest are amongst the largest in the Himalayas. Many celebs visit IIT Mandi during the fests. Exodia is the largest technical festival of IIT Mandi. You can know more about particular fests here: https://en.wikipedia.org/wiki/IIT_Mandi#Cultural_festivals"],
          "context": [""]
         }
          ,
         {"tag": "senate_committee",
-         "patterns": ["What is the role of the senate committee","senate commitee"],
+         "patterns": ["What is the role of the senate committee","senate committee"],
          "responses": ["Looks after the normal administration and working of the campus"],
          "context": [""]
         }
         ,
         {"tag": "seminars_talks",
          "patterns": ["Do prominent personalities conduct talks and seminars at IIT Mandi","seminar talks"],
-         "responses": ["Many knowledgable people take seminars at IIt Mandi and it is conducted at regular succesions"],
+         "responses": ["Many knowledgeable people take seminars at IIt Mandi and it is conducted at regular successions"],
          "context": [""]
         }
         ,
         {"tag": "student_role_college_administration",
-         "patterns": ["What role does a student play in the college administraition","How can a student affect the administration"],
+         "patterns": ["What role does a student play in the college administration","How can a student affect the administration"],
          "responses": ["AT IIT Mandi a student becomes able to voice his concerns to the administration effectively\n Class representatives are elected and they represent the students in the Class committee meetings.\n Please refer to the following link :\n https://drive.google.com/file/d/1uNqr6gyiLUnFWkktyFw_mvQxsUDlQJ4m/view\n"],
          "context": [""]
         }
