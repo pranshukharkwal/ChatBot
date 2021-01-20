@@ -4,6 +4,11 @@
      "responses": ["Hello", "Hi there, how can I help?"],
      "context": [""]
     },
+    {"tag":"get_info",
+        "patterns":["get info", "information about","tell me about","info about", "tell me", "give me","give me info"],
+        "responses":[""],
+        "context":[""]
+       },
     {"tag": "goodbye",
      "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time","talk to you later ttyl"],
      "responses": ["See you!\nPlease look up these links to know more about IIT Mandi:\n https://wiki.iitmandi.co.in/p/Main_Page\nhttps://www.iitmandi.ac.in"],

@@ -2,8 +2,10 @@
 import pandas as pd
 import json
 import random
+import nltk
 from nltk.tag import pos_tag
-nltk.download('averaged_perceptron_tagger')
+
+# nltk.download('averaged_perceptron_tagger')
 import wikipedia
 # %%
 
@@ -131,29 +133,25 @@ def give_suggestion(t1, t2=''):
 
     return songData
 
-def fetch_wikipedia(sentence):
-    tagged_sent = pos_tag(sentence.split())
-    pn = [word for word,pos in tagged_sent if pos == 'NNP']
-    final = " ".join(pn)
-    return wikipedia.summary(final)
 
-#%%
-# some test cases!!
-t1 = 'movies'
-t2 = ''
+# print(fetch_wikipedia("give some information about elon musk"))
+# #%%
+# # some test cases!!
+# t1 = 'movies'
+# t2 = ''
 
-give_suggestion(t1, t2)
+# give_suggestion(t1, t2)
 
-#%%
+# #%%
 
-t1 = 'songs'
-t2 = 'rap'
+# t1 = 'songs'
+# t2 = 'rap'
 
-give_suggestion(t1, t2)
+# give_suggestion(t1, t2)
 
 
-#%%
-t1 = 'books'
-t2 = 'kuch bhi'
+# #%%
+# t1 = 'books'
+# t2 = 'kuch bhi'
 
-give_suggestion(t1, t2)
+# give_suggestion(t1, t2)
